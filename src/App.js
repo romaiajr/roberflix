@@ -10,9 +10,9 @@ function App() {
     <div style={{ background: "#141414" }}>
       <Menu />
       <BannerMain
-        videoTitle="Rex Orange County - Sunflower [legendado]"
-        url="https://www.youtube.com/watch?v=NHZuvQ3Fz98"
-        videoDescription="Programando e ouvindo música"
+        videoTitle="A barraca do beijo 2"
+        url="https://www.youtube.com/watch?v=lWImVp38gy4"
+        videoDescription="Filminho show"
       />
       <Carousel
         ignoreFirstVideo
