@@ -19,23 +19,18 @@ function App() {
         category={DI.categorias[0]}
       />
       <Carousel
-        ignoreFirstVideo
         category={DI.categorias[1]}
       />
       <Carousel
-        ignoreFirstVideo
         category={DI.categorias[2]}
       />
       <Carousel
-        ignoreFirstVideo
         category={DI.categorias[3]}
       />
       <Carousel
-        ignoreFirstVideo
         category={DI.categorias[4]}
       />
       <Carousel
-        ignoreFirstVideo
         category={DI.categorias[5]}
       />
       <Footer />
