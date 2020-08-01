@@ -72,12 +72,12 @@ const Input = styled.input`
 function FormField({ value, onChange, type, name, label }) {
   const fieldId = `id_${name}`;
   const tag = type === 'textarea' ? 'textarea' : 'input'
+
   return (
     <FormFieldWrapper>
       <Label
         htmrlFor={fieldId}
       >
-        {label}
         <Input
           as={tag}
           id={fieldId}
@@ -86,6 +86,9 @@ function FormField({ value, onChange, type, name, label }) {
           name={name}
           onChange={onChange}
         />
+        <Label.Text>
+          {label}
+        </Label.Text>
       </Label>
     </FormFieldWrapper>
   )
